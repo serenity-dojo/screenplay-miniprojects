@@ -17,16 +17,16 @@ Tracy buys a single ticket from Reading to Oxford.
 She should see "Reading to Oxford" on the result page heading, and at least one matching trip. Add displayed trips should show the duration and the ticket type (e.g. "Off-peak day single"), and specify that the trips start at Reading and go to Oxford ("Reading > Oxford").
 ![Search results](src/documentation/images/reading-to-oxford.png)
 
-### Scenario 2 - The one where Tracy books a return-way ticket from Reading to Oxford leaving now
+### Scenario 2 - The one where Tracy books a return ticket from Reading to Oxford leaving now and returning tomorrow
 
-Tracy books a return ticket from Reading to Oxford, returning tomorrow. She selects the first available outbound trip:
+Tracy books a return ticket from Reading to Oxford, returning sometime tomorrow. She selects the first available outbound trip:
 ![Search results](src/documentation/images/picking-outbound-trip.png)
 
 #### Expected outcomes 
 She should now see a list of return trips. The heading should be "Oxford to Reading", add displayed trips should show the duration and the ticket type (e.g. "Off-peak day single"), and specify that the trips start at Oxford and go to Reading ("Oxford > Reading").
 ![Search results](src/documentation/images/return-trip.png)
 
-### Scenario 3 - The one where Bill books a return-way ticket from Reading to Oxford leaving now
+### Scenario 3 - The one where Bill books a return ticket from Reading to Oxford leaving tomorrow
 
 Bill books a return ticket from London Kings Cross to York, leaving tomorrow and returning in three days time. He selects the first available trains for the outgoing and return trip.
  
