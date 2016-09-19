@@ -35,5 +35,23 @@ Bill books a return ticket from London Kings Cross to York, leaving tomorrow and
 
 ![Search results](src/documentation/images/upgrade-first.png)
 
+### Scenario 4 - The one where Bill views the details of a trip for a direct trip
+
+Bill books a single ticket from Reading to Bath Spa. He clicks on the "Direct" button for the first trip
+
+#### Expected outcomes 
+ He should now see the details of the trip, including the departure station and time, and the arrival station. The Departure and Arrival stations should match the requested route.  
+
+![Search results](src/documentation/images/details-view.png)
+
+
+### Scenario 5 - The one where Bill views the details of a trip for a trip with changes
+
+Bill books a single ticket from Cardiff Central to York. He clicks on the "1 CHG" button for the first trip
+
+#### Expected outcomes 
+ He should now see the details of the trip, including the departure station and time, the arrival station and time, and the connecting station and connection time. The Departure and Arrival stations should match the requested route.  
+
+![Search results](src/documentation/images/1change.png)
 
 
