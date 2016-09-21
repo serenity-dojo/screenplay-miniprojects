@@ -1,4 +1,4 @@
-package serenitylabs.tutorials.trains.tasks.tasks;
+package serenitylabs.tutorials.trains.tasks;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;

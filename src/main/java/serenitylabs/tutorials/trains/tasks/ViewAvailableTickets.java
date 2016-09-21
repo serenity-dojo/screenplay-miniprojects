@@ -1,4 +1,4 @@
-package serenitylabs.tutorials.trains.tasks.tasks;
+package serenitylabs.tutorials.trains.tasks;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -21,9 +21,12 @@ public class ViewAvailableTickets implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
+
+        actor.attemptsTo(CookieMessageWindow.close());
+
         actor.attemptsTo(
                 Enter.theValue(fromStation).into(TicketTypeForm.ORIGIN).thenHit(Keys.TAB),
-                Enter.theValue(fromStation).into(TicketTypeForm.DEPARTURE).thenHit(Keys.TAB),
+                Enter.theValue(toStation).into(TicketTypeForm.DEPARTURE).thenHit(Keys.TAB),
                 Click.on(TicketTypeForm.BUY_TICKETS)
         );
     }

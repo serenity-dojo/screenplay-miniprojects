@@ -9,8 +9,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import serenitylabs.tutorials.trains.questions.TheOutBoundJourneySummary;
-import serenitylabs.tutorials.trains.tasks.tasks.ChosenTo;
-import serenitylabs.tutorials.trains.tasks.tasks.ViewAvailableTickets;
+import serenitylabs.tutorials.trains.tasks.ChosenTo;
+import serenitylabs.tutorials.trains.tasks.ViewAvailableTickets;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.CoreMatchers.is;
@@ -28,8 +28,6 @@ public class WhenPlanningATrip {
         System.setProperty("webdriver.chrome.driver", "D:\\Users\\sapurani\\Desktop\\Chrome Driver\\chromedriver.exe");
         tracy = Actor.named("Tracy");
         tracy.can(BrowseTheWeb.with(webDriver));
-
-
     }
 
     @Test
@@ -38,6 +36,7 @@ public class WhenPlanningATrip {
 
         //WHEN
         tracy.attemptsTo(ViewAvailableTickets.from("London Paddington").to("Oxford"));
+
 
         //THEN
         tracy.should(

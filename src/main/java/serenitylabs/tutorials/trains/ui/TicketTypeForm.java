@@ -9,5 +9,6 @@ import net.serenitybdd.screenplay.targets.Target;
 public class TicketTypeForm {
     public static final Target ORIGIN = Target.the("Origin Station").located(By.id("depart-from"));
     public static final Target DEPARTURE = Target.the("Departure Station").located(By.id("going-to"));
-    public static final Target BUY_TICKETS = Target.the("Origin Station").located(By.className("planner__submit"));
+    public static final Target BUY_TICKETS = Target.the("Buy Tickets").located(By.className("planner__submit"));
+    public static final Target ACCEPT_COOKIES = Target.the("Accept Cookies").locatedBy(" .cookies button");
 }
