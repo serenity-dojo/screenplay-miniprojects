@@ -15,4 +15,12 @@ public class TheOutBoundJourneySummary {
     public static Question<String> destination() {
         return actor -> Text.of(TheOutBoundSummary.DESTINATION).viewedBy(actor).asString();
     }
+
+    public static Question<String> duration() {
+        return actor -> Text.of(TheOutBoundSummary.DURATION).viewedBy(actor).asString();
+    }
+
+    public static Question<String> ticketType() {
+        return actor -> Text.of(TheOutBoundSummary.TICKET_TYPE).viewedBy(actor).asString();
+    }
 }

@@ -14,6 +14,7 @@ import serenitylabs.tutorials.trains.tasks.ViewAvailableTickets;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.notNullValue;
 
 @RunWith(SerenityRunner.class)
 public class WhenPlanningATrip {
@@ -21,7 +22,6 @@ public class WhenPlanningATrip {
     static WebDriver webDriver ;
 
     Actor tracy;
-
 
     @Before
     public void setTheStage() {
@@ -35,12 +35,14 @@ public class WhenPlanningATrip {
         tracy.has(ChosenTo.bookATicket());
 
         //WHEN
-        tracy.attemptsTo(ViewAvailableTickets.from("London Paddington").to("Oxford"));
+        tracy.attemptsTo(ViewAvailableTickets.from("Reading").to("Oxford"));
 
 
         //THEN
         tracy.should(
-                seeThat(TheOutBoundJourneySummary.origin(),is("London Paddington")),
-                seeThat(TheOutBoundJourneySummary.destination(),is("Oxford")));
+                seeThat(TheOutBoundJourneySummary.origin(),is("READING")),
+                seeThat(TheOutBoundJourneySummary.destination(),is("Oxford")),
+                seeThat(TheOutBoundJourneySummary.duration(),notNullValue()),
+                seeThat(TheOutBoundJourneySummary.ticketType(),notNullValue()));
     }
 }
