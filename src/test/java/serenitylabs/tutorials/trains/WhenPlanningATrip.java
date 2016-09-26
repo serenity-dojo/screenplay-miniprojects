@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import serenitylabs.tutorials.trains.questions.TheOutBoundJourneySummary;
 import serenitylabs.tutorials.trains.tasks.ChosenTo;
-import serenitylabs.tutorials.trains.tasks.ViewAvailableTickets;
+import serenitylabs.tutorials.trains.tasks.ViewAvailableTicketsForReturnTrip;
+import serenitylabs.tutorials.trains.tasks.ViewAvailableTicketsForSingleTrip;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.CoreMatchers.is;
@@ -35,7 +36,7 @@ public class WhenPlanningATrip {
         tracy.has(ChosenTo.bookATicket());
 
         //WHEN
-        tracy.attemptsTo(ViewAvailableTickets.from("Reading").to("Oxford"));
+        tracy.attemptsTo(ViewAvailableTicketsForSingleTrip.from("Reading").to("Oxford"));
 
 
         //THEN
@@ -44,5 +45,22 @@ public class WhenPlanningATrip {
                 seeThat(TheOutBoundJourneySummary.destination(),is("Oxford")),
                 seeThat(TheOutBoundJourneySummary.duration(),notNullValue()),
                 seeThat(TheOutBoundJourneySummary.ticketType(),notNullValue()));
+    }
+
+    @Test
+    public void booking_a_simple_round_trip() {
+        tracy.has(ChosenTo.bookATicket());
+
+        //WHEN
+        tracy.attemptsTo(ViewAvailableTicketsForReturnTrip.from("Reading").to("Oxford").returnDate("27th Sep 18:15"));
+        //aND
+
+        //tracy.should(seeThat(TheOutBoundJourneySummary.optionTitle(),is("Choose travel option")));
+         //THEN
+       /* tracy.should(
+                seeThat(TheOutBoundJourneySummary.origin(),is("READING")),
+                seeThat(TheOutBoundJourneySummary.destination(),is("Oxford")),
+                seeThat(TheOutBoundJourneySummary.duration(),notNullValue()),
+                seeThat(TheOutBoundJourneySummary.ticketType(),notNullValue()));*/
     }
 }
