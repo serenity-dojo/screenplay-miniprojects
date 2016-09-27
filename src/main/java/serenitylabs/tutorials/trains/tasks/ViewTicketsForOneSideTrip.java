@@ -13,12 +13,12 @@ import serenitylabs.tutorials.trains.ui.JourneyDetailsPage;
 /**
  * Created by Vikrant Dheer on 9/26/2016.
  */
-public class ViewTheAvailableTickets implements Task {
+public class ViewTicketsForOneSideTrip implements Task {
 
     private final String departure;
     private final String destination;
 
-    public ViewTheAvailableTickets(String departure, String destination) {
+    public ViewTicketsForOneSideTrip(String departure, String destination) {
         this.departure = departure;
         this.destination = destination;
     }
@@ -47,7 +47,7 @@ public class ViewTheAvailableTickets implements Task {
         }
 
         public Performable to(String destination) {
-            return Instrumented.instanceOf(ViewTheAvailableTickets.class).withProperties(departure, destination);
+            return Instrumented.instanceOf(ViewTicketsForOneSideTrip.class).withProperties(departure, destination);
         }
     }
 }

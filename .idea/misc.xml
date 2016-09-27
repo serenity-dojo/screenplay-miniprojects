@@ -46,6 +46,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../web-driver-web-elements/pom.xml" />
+        <option value="$PROJECT_DIR$/../screenplay-exercises-webdriver-waits/pom.xml" />
+        <option value="$PROJECT_DIR$/../screenplay-exercises-webdriver-questions/pom.xml" />
       </list>
     </option>
   </component>

@@ -23,12 +23,14 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="screenplay-exercises" />
+        <module name="screenplay-exercises (1)" />
         <module name="screenplay-miniprojects" />
         <module name="vet-clinic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="screenplay-exercises" target="1.8" />
+      <module name="screenplay-exercises (1)" target="1.8" />
       <module name="screenplay-miniprojects" target="1.8" />
       <module name="vet-clinic" target="1.8" />
     </bytecodeTargetLevel>

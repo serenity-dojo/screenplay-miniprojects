@@ -2,7 +2,7 @@ package serenitylabs.tutorials.trains.questions;
 
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
-import serenitylabs.tutorials.trains.ui.JourneySummaryPage;
+import serenitylabs.tutorials.trains.ui.OutboundJourneySummaryPage;
 
 import java.util.List;
 
@@ -11,31 +11,31 @@ import java.util.List;
  */
 public class TheResultPage {
     public static Question<String> departureHeading() {
-        return actor -> Text.of(JourneySummaryPage.DEPARTURE).viewedBy(actor).asString();
+        return actor -> Text.of(OutboundJourneySummaryPage.DEPARTURE).viewedBy(actor).asString();
     }
 
     public static Question<String> destinationHeading() {
-        return actor -> Text.of(JourneySummaryPage.DESTINATION).viewedBy(actor).asString();
+        return actor -> Text.of(OutboundJourneySummaryPage.DESTINATION).viewedBy(actor).asString();
     }
 
     public static Question<List<String>> numberOfJourneyOptions() {
-        return actor -> Text.of(JourneySummaryPage.JOURNEY_OPTIONS).viewedBy(actor).asList();
+        return actor -> Text.of(OutboundJourneySummaryPage.JOURNEY_OPTIONS).viewedBy(actor).asList();
     }
 
-    public static Question<String> typeOfTicket() {
-        return actor -> Text.of(JourneySummaryPage.TICKET_TYPE).viewedBy(actor).asString();
+    public static Question<List<String>> typeOfTicket() {
+        return actor -> Text.of(OutboundJourneySummaryPage.TICKET_TYPE).viewedBy(actor).asList();
     }
 
     public static Question<String> durationOfJourney() {
-        return actor -> Text.of(JourneySummaryPage.DURATION).viewedBy(actor).asString();
+        return actor -> Text.of(OutboundJourneySummaryPage.DURATION).viewedBy(actor).asString();
 }
 
     public static Question<String> journeyDeparture() {
-        return actor -> Text.of(JourneySummaryPage.JOURNEY_ORIGIN).viewedBy(actor).asString();
+        return actor -> Text.of(OutboundJourneySummaryPage.JOURNEY_ORIGIN).viewedBy(actor).asString();
     }
 
     public static Question<String> journeyDestination() {
-        return actor -> Text.of(JourneySummaryPage.JOURNEY_DESTINATION).viewedBy(actor).asString();
+        return actor -> Text.of(OutboundJourneySummaryPage.JOURNEY_DESTINATION).viewedBy(actor).asString();
     }
 }
 

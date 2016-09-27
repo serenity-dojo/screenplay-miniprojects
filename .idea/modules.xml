@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../screenplay-exercises-webdriver-waits/screenplay-exercises.iml" filepath="$PROJECT_DIR$/../screenplay-exercises-webdriver-waits/screenplay-exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../screenplay-exercises-webdriver-questions/screenplay-exercises (1).iml" filepath="$PROJECT_DIR$/../screenplay-exercises-webdriver-questions/screenplay-exercises (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/screenplay-miniprojects.iml" filepath="$PROJECT_DIR$/screenplay-miniprojects.iml" />
       <module fileurl="file://$PROJECT_DIR$/../web-driver-web-elements/vet-clinic.iml" filepath="$PROJECT_DIR$/../web-driver-web-elements/vet-clinic.iml" />
     </modules>
