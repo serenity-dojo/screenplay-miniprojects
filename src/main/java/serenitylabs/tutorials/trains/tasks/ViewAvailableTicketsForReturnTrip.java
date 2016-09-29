@@ -31,9 +31,9 @@ public class ViewAvailableTicketsForReturnTrip implements Task {
         actor.attemptsTo(
                 Enter.theValue(fromStation).into(TicketTypeForm.ORIGIN).thenHit(Keys.TAB),
                 Enter.theValue(toStation).into(TicketTypeForm.DEPARTURE).thenHit(Keys.TAB),
-                Click.on(TicketTypeForm.RETURN),
+                Click.on(TicketTypeForm.RETURN)
                // Enter.theValue(returnDate).into(TicketTypeForm.RETURN_DATE),
-                Click.on(TicketTypeForm.BUY_TICKETS)
+               // Click.on(TicketTypeForm.BUY_TICKETS)
         );
     }
 

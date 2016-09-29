@@ -27,4 +27,8 @@ public class TheOutBoundJourneySummary {
     public static Question<String> optionTitle() {
         return actor -> Text.of(TheOutBoundSummary.TITLE).viewedBy(actor).asString();
     }
+
+    public static Question<String> modalJourneyType() {
+        return actor -> Text.of(TheOutBoundSummary.JOURNEY_TYPE).viewedBy(actor).asString();
+    }
 }
