@@ -2,40 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="311540da-fd0a-4a85-9802-111cf264a04a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/questions/TheInboundJourneyPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/BuyTheTicket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/EnterReturnSchedule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ViewTicketsForReturnTrip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/ui/OutboundJourneySummaryPage.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_6_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_core_1_1_37_rc_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_junit_1_1_37_rc_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_report_resources_1_1_37_rc_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_screenplay_1_1_37_rc_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_screenplay_webdriver_1_1_37_rc_8.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../screenplay-exercises-webdriver-questions/src/main/java/serenitylabs/tutorials/trains/tasks/ChosenTo.java" afterPath="$PROJECT_DIR$/../screenplay-exercises-webdriver-questions/src/main/java/serenitylabs/tutorials/trains/tasks/ChosenTo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../screenplay-exercises-webdriver-questions/src/main/java/serenitylabs/tutorials/trains/ui/TicketTypeForm.java" afterPath="$PROJECT_DIR$/../screenplay-exercises-webdriver-questions/src/main/java/serenitylabs/tutorials/trains/ui/TicketTypeForm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../screenplay-exercises-webdriver-questions/src/test/java/serenitylabs/tutorials/trains/WhenPlanningATrip.java" afterPath="$PROJECT_DIR$/../screenplay-exercises-webdriver-questions/src/test/java/serenitylabs/tutorials/trains/WhenPlanningATrip.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/questions/TheResultPage.java" afterPath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/questions/TheResultPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/ui/JourneyDetailsPage.java" afterPath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/ui/JourneyDetailsPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/questions/TheInboundJourneyPage.java" afterPath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/questions/TheInboundJourneyPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/EnterReturnSchedule.java" afterPath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/EnterReturnSchedule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ViewTicketsForOneSideTrip.java" afterPath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ViewTicketsForOneSideTrip.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/serenitylabs/tutorials/trains/WhenPlanningATrip.java" afterPath="$PROJECT_DIR$/src/test/java/serenitylabs/tutorials/trains/WhenPlanningATrip.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web-driver-web-elements/pom.xml" afterPath="$PROJECT_DIR$/../web-driver-web-elements/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web-driver-web-elements/src/test/java/serenitylabs/tutorials/vetclinic/webdriver/WhenBookingAFlight.java" afterPath="$PROJECT_DIR$/../web-driver-web-elements/src/test/java/serenitylabs/tutorials/vetclinic/webdriver/WhenBookingAFlight.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web-driver-web-elements/src/test/java/serenitylabs/tutorials/vetclinic/webdriver/WhenBookingATrain.java" afterPath="$PROJECT_DIR$/../web-driver-web-elements/src/test/java/serenitylabs/tutorials/vetclinic/webdriver/WhenBookingATrain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web-driver-web-elements/src/test/java/serenitylabs/tutorials/vetclinic/webdriver/WhenInteractingWithElementsAndForms.java" afterPath="$PROJECT_DIR$/../web-driver-web-elements/src/test/java/serenitylabs/tutorials/vetclinic/webdriver/WhenInteractingWithElementsAndForms.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_core_1_1_39.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_core_1_1_41.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_report_resources_1_1_39.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_report_resources_1_1_41.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_screenplay_webdriver_1_1_39.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_screenplay_webdriver_1_1_41.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ViewTheAvailableTickets.java" afterPath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ViewTicketsForOneSideTrip.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/ui/JourneySummaryPage.java" afterPath="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/ui/InboundJourneySummaryPage.java" />
     </list>
     <ignored path="screenplay-miniprojects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,14 +38,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="WhenPlanningATrip.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WhenPlanningATrip.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/serenitylabs/tutorials/trains/WhenPlanningATrip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="100" column="62" selection-start-line="100" selection-start-column="62" selection-end-line="100" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="382">
+              <caret line="71" column="41" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnterReturnSchedule.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/EnterReturnSchedule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="61" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,11 +61,19 @@
       <file leaf-file-name="TheInboundJourneyPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/questions/TheInboundJourneyPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewTicketsForReturnTrip.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ViewTicketsForReturnTrip.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="31" column="63" selection-start-line="29" selection-start-column="15" selection-end-line="31" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,17 +105,21 @@
         <option value="$PROJECT_DIR$/../web-driver-web-elements/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ReturnScheduleOn.java" />
         <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/EnterReturnScheduleBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ViewTicketsForReturnTrip.java" />
         <option value="$PROJECT_DIR$/serenity.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/EnterReturnSchedule.java" />
         <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/BuyTheTicket.java" />
         <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/ui/JourneySummaryPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/ui/JourneyDetailsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/ui/OutboundJourneySummaryPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/questions/TheResultPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/questions/TheInboundJourneyPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/ui/InboundJourneySummaryPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/ui/JourneyDetailsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ViewTicketsForOneSideTrip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/EnterReturnSchedule.java" />
+        <option value="$PROJECT_DIR$/../Java8/src/com/vikrant/practice/FirstLamdaExpressionFileFilter.java" />
+        <option value="$PROJECT_DIR$/../Java8/src/com/vikrant/practice/ComparatorLambda.java" />
+        <option value="$PROJECT_DIR$/../Java8/src/com/vikrant/practice/ReductionExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ViewTicketsForReturnTrip.java" />
         <option value="$PROJECT_DIR$/src/test/java/serenitylabs/tutorials/trains/WhenPlanningATrip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/questions/TheInboundJourneyPage.java" />
       </list>
     </option>
   </component>
@@ -167,9 +166,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -184,7 +183,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="screenplay-exercises-webdriver-questions" />
+              <option name="myItemId" value="screenplay-miniprojects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -194,7 +193,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="screenplay-exercises-webdriver-questions" />
+              <option name="myItemId" value="screenplay-miniprojects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -220,7 +219,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="screenplay-exercises-webdriver-questions" />
+              <option name="myItemId" value="screenplay-miniprojects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -233,7 +232,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../screenplay-exercises-webdriver-questions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java8" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19183673" />
@@ -246,84 +245,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.WhenPlanningATrip.tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow">
-    <configuration default="false" name="WhenPlanningATrip.booking_a_simple_trip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="serenitylabs.tutorials.trains.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="screenplay-miniprojects" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="serenitylabs.tutorials.trains" />
-      <option name="MAIN_CLASS_NAME" value="serenitylabs.tutorials.trains.WhenPlanningATrip" />
-      <option name="METHOD_NAME" value="booking_a_simple_trip" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="WhenPlanningATrip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="serenitylabs.tutorials.trains.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="screenplay-miniprojects" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="serenitylabs.tutorials.trains" />
-      <option name="MAIN_CLASS_NAME" value="serenitylabs.tutorials.trains.WhenPlanningATrip" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="WhenBookingATrain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="serenitylabs.tutorials.vetclinic.webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="vet-clinic" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="serenitylabs.tutorials.vetclinic.webdriver" />
-      <option name="MAIN_CLASS_NAME" value="serenitylabs.tutorials.vetclinic.webdriver.WhenBookingATrain" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="WhenPlanningATrip.tracy_books_a_one_way_ticket_from_Reading_to_Oxford_leaving_now" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -374,6 +295,72 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="WhenPlanningATrip.bill_books_a_return_ticket_from_Reading_to_Oxford_leaving_tomorrow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="serenitylabs.tutorials.trains.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="screenplay-miniprojects" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="serenitylabs.tutorials.trains" />
+      <option name="MAIN_CLASS_NAME" value="serenitylabs.tutorials.trains.WhenPlanningATrip" />
+      <option name="METHOD_NAME" value="bill_books_a_return_ticket_from_Reading_to_Oxford_leaving_tomorrow" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ComparatorLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.vikrant.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.vikrant.practice.ComparatorLambda" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java8" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReductionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.vikrant.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.vikrant.practice.ReductionExample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java8" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -621,19 +608,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.WhenPlanningATrip.booking_a_simple_trip" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.WhenPlanningATrip" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.WhenBookingATrain" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.WhenPlanningATrip.tracy_books_a_one_way_ticket_from_Reading_to_Oxford_leaving_now" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.WhenPlanningATrip.tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.WhenPlanningATrip.tracy_books_a_one_way_ticket_from_Reading_to_Oxford_leaving_now" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.WhenPlanningATrip.tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.WhenPlanningATrip.bill_books_a_return_ticket_from_Reading_to_Oxford_leaving_tomorrow" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ComparatorLambda" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReductionExample" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.WhenPlanningATrip.tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WhenPlanningATrip" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.WhenPlanningATrip.tracy_books_a_one_way_ticket_from_Reading_to_Oxford_leaving_now" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.WhenPlanningATrip.booking_a_simple_trip" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.WhenBookingATrain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ReductionExample" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ComparatorLambda" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.WhenPlanningATrip.bill_books_a_return_ticket_from_Reading_to_Oxford_leaving_tomorrow" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.WhenPlanningATrip.tracy_books_a_one_way_ticket_from_Reading_to_Oxford_leaving_now" />
       </list>
     </recent_temporary>
   </component>
@@ -654,34 +641,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.27 at 23h 27m 30s.xml">
+    <history-entry file="WhenPlanningATrip_bill_books_a_return_ticket_from_Reading_to_Oxford_leaving_tomorrow - 2016.09.28 at 12h 30m 29s.xml">
+      <configuration name="WhenPlanningATrip.bill_books_a_return_ticket_from_Reading_to_Oxford_leaving_tomorrow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhenPlanningATrip_bill_books_a_return_ticket_from_Reading_to_Oxford_leaving_tomorrow - 2016.09.28 at 12h 36m 50s.xml">
+      <configuration name="WhenPlanningATrip.bill_books_a_return_ticket_from_Reading_to_Oxford_leaving_tomorrow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhenPlanningATrip_bill_books_a_return_ticket_from_Reading_to_Oxford_leaving_tomorrow - 2016.09.28 at 12h 37m 56s.xml">
+      <configuration name="WhenPlanningATrip.bill_books_a_return_ticket_from_Reading_to_Oxford_leaving_tomorrow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhenPlanningATrip_tracy_books_a_one_way_ticket_from_Reading_to_Oxford_leaving_now - 2016.09.28 at 12h 29m 32s.xml">
+      <configuration name="WhenPlanningATrip.tracy_books_a_one_way_ticket_from_Reading_to_Oxford_leaving_now" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.28 at 10h 40m 42s.xml">
       <configuration name="WhenPlanningATrip.tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.27 at 23h 29m 03s.xml">
+    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.28 at 10h 41m 26s.xml">
       <configuration name="WhenPlanningATrip.tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.27 at 23h 30m 05s.xml">
+    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.28 at 12h 31m 25s.xml">
       <configuration name="WhenPlanningATrip.tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.27 at 23h 31m 23s.xml">
+    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.28 at 12h 33m 36s.xml">
       <configuration name="WhenPlanningATrip.tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.27 at 23h 32m 24s.xml">
+    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.28 at 15h 27m 15s.xml">
       <configuration name="WhenPlanningATrip.tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.27 at 23h 33m 24s.xml">
-      <configuration name="WhenPlanningATrip.tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.27 at 23h 35m 44s.xml">
-      <configuration name="WhenPlanningATrip.tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.27 at 23h 37m 45s.xml">
-      <configuration name="WhenPlanningATrip.tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.27 at 23h 39m 46s.xml">
-      <configuration name="WhenPlanningATrip.tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.27 at 23h 41m 19s.xml">
+    <history-entry file="WhenPlanningATrip_tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow - 2016.09.28 at 15h 28m 33s.xml">
       <configuration name="WhenPlanningATrip.tracy_books_a_return_ticket_from_Reading_to_Oxford_leaving_now_and_returning_tomorrow" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -691,23 +678,23 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.321513" sideWeight="0.50215983" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.321513" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11583924" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27423167" sideWeight="0.49784017" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20803782" sideWeight="0.49784017" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24784017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22516198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -741,9 +728,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/questions/TheInboundJourneyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/serenitylabs/tutorials/trains/WhenPlanningATrip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -752,7 +753,8 @@
         <state relative-caret-position="175">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#919#920#0" expanded="false" />
+            <element signature="e#995#996#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,7 +764,7 @@
         <state relative-caret-position="400">
           <caret line="17" column="162" selection-start-line="17" selection-start-column="162" selection-end-line="17" selection-end-column="162" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -771,9 +773,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1300">
           <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -781,9 +781,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1850">
           <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -791,9 +789,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -802,7 +798,7 @@
         <state relative-caret-position="325">
           <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -811,9 +807,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="34" column="10" selection-start-line="28" selection-start-column="7" selection-end-line="34" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -831,18 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ViewTicketsForOneSideTrip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="23" column="5" selection-start-line="17" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1552#1553#0" expanded="false" />
-            <element signature="e#1602#1603#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.0.0-beta3/selenium-support-3.0.0-beta3.jar!/org/openqa/selenium/support/ui/Select.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -854,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2700">
           <caret line="108" column="42" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -878,17 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="2938" column="25" selection-start-line="2938" selection-start-column="25" selection-end-line="2938" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ViewTicketsForReturnTrip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -927,31 +897,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay-webdriver/1.1.41/serenity-screenplay-webdriver-1.1.41.jar!/net/serenitybdd/screenplay/targets/Target.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay/1.1.39/serenity-screenplay-1.1.39.jar!/net/serenitybdd/screenplay/GivenWhenThen.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding>
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/EnterReturnSchedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,29 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ChosenTo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/ui/JourneyDetailsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -997,7 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,7 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-825">
           <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,9 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2367">
           <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,19 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/BuyTheTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,35 +951,156 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-950">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/questions/TheInboundJourneyPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay-webdriver/1.1.41/serenity-screenplay-webdriver-1.1.41.jar!/net/serenitybdd/screenplay/targets/Target.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="113">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/ui/InboundJourneySummaryPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="50" />
+        <state relative-caret-position="272">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ChosenTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="e#919#920#0" expanded="false" />
+            <element signature="e#995#996#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/ui/JourneyDetailsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="83" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/BuyTheTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#754#755#0" expanded="false" />
+            <element signature="e#809#810#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ViewTicketsForOneSideTrip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay-webdriver/1.1.41/serenity-screenplay-webdriver-1.1.41.jar!/net/serenitybdd/screenplay/questions/targets/TheTarget.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Java8/src/com/vikrant/practice/FirstPredicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/io/FileFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Java8/src/com/vikrant/practice/FirstLamdaExpressionFileFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Java8/src/com/vikrant/practice/DateAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="148" column="3" selection-start-line="148" selection-start-column="3" selection-end-line="149" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Java8/src/com/vikrant/practice/ComparatorLambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Java8/src/com/vikrant/practice/ReductionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/questions/TheInboundJourneyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/ViewTicketsForReturnTrip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="31" column="63" selection-start-line="29" selection-start-column="15" selection-end-line="31" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/serenitylabs/tutorials/trains/WhenPlanningATrip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="100" column="62" selection-start-line="100" selection-start-column="62" selection-end-line="100" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="382">
+          <caret line="71" column="41" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serenitylabs/tutorials/trains/tasks/EnterReturnSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,11 +1156,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>screenplay-exercises (1)</last-edited>
+          <last-edited>Java8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.19183673" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

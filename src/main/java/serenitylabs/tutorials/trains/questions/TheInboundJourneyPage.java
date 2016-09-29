@@ -1,6 +1,7 @@
 package serenitylabs.tutorials.trains.questions;
 
 import net.serenitybdd.screenplay.Question;
+import net.serenitybdd.screenplay.annotations.Subject;
 import net.serenitybdd.screenplay.questions.Text;
 import serenitylabs.tutorials.trains.ui.InboundJourneySummaryPage;
 
@@ -9,7 +10,8 @@ import java.util.List;
 /**
  * Created by Vikrant Dheer on 9/27/2016.
  */
-public class TheInboundJourneyPage {
+@Subject("The details of inbound journey page")
+public class TheInboundJourneyPage{
 
     public static Question<String> departureHeading() {
         return actor -> Text.of(InboundJourneySummaryPage.DEPARTURE).viewedBy(actor).asString();

@@ -47,6 +47,7 @@ public class ViewTicketsForOneSideTrip implements Task {
         }
 
         public Performable to(String destination) {
+//            return new ViewTicketsForOneSideTrip(departure,destination);
             return Instrumented.instanceOf(ViewTicketsForOneSideTrip.class).withProperties(departure, destination);
         }
     }
