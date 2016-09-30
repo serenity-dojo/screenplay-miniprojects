@@ -17,5 +17,9 @@ public class InboundJourneySummaryPage {
     public static final Target INBOUND_JOURNEY_PRICE = Target.the("price and buys the return ticket as well").locatedBy(".journey__price[href='inbound/select/1']");
     public static final Target UPGRADE = Target.the("Upgrade to First class").locatedBy(".options-input-header__title");
     public static final Target UPGRADE_OPTION = Target.the("Upgrade to First class").locatedBy("#option-0");
-    public static final Target DIRECT_OPTION = Target.the("direct option").locatedBy("#option-0");
+    public static final Target DIRECT_OPTION = Target.the("direct option").locatedBy("article:nth-child(2) .journey__changes");
+    public static final Target DEPARTING_TIME = Target.the("time of departure").locatedBy("article:nth-child(2)  .itinerary__depart .itinerary__time");
+    public static final Target ARRIVAL_TIME = Target.the("time of arrival").locatedBy("article:nth-child(2)  .itinerary__arrive .itinerary__time");
+    public static final Target DEPARTING_STATION = Target.the("departure station").locatedBy("article:nth-child(2)  .itinerary__depart .itinerary__station");;
+    public static final Target ARRIVAL_STATION = Target.the("arrival station").locatedBy("article:nth-child(2)  .itinerary__arrive .itinerary__station");;
 }

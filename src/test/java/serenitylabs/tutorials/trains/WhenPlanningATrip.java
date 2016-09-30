@@ -124,16 +124,23 @@ public class WhenPlanningATrip {
     }
 
     //4th Scenario
-//    @Test
-//    public void bill_views_the_details_of_a_trip_for_a_direct_trip() {
-//
-//        givenThat(bill).has(ChosenTo.bookATicket());
-//
-//        when(bill).attemptsTo(ViewTicketsForReturnTrip.from("Reading ").to("Bath Spa"));
-//        and(bill).attemptsTo(EnterReturnSchedule.departOrArrive("arrive")
-//                .On(currentDate).at(defaultTime.plusHours(12).plusMinutes(45)));
-//        then(bill).attemptsTo(BuyTheTicket.withDirectOption());
-//
-//        then(bill).should(eventually(seeThat("the upgrade option to First Class", the(InboundJourneySummaryPage.UPGRADE_OPTION), isVisible())));
-//    }
+    @Test
+    public void bill_views_the_details_of_a_trip_for_a_direct_trip() {
+
+        givenThat(bill).has(ChosenTo.bookATicket());
+
+        when(bill).attemptsTo(ViewTicketsForReturnTrip.from("Reading ").to("Bath Spa"));
+        and(bill).attemptsTo(EnterReturnSchedule.departOrArrive("arrive")
+                .On(currentDate).at(defaultTime.plusHours(12).plusMinutes(45)));
+        then(bill).attemptsTo(BuyTheTicket.withDirectOption());
+
+        then(bill).should(
+                eventually(
+                        seeThat("the direct option", the(InboundJourneySummaryPage.DEPARTING_TIME), isCurrentlyVisible())
+                ),
+                (seeThat("the direct option", the(InboundJourneySummaryPage.ARRIVAL_TIME), isCurrentlyVisible())),
+                (seeThat("the direct option", the(InboundJourneySummaryPage.DEPARTING_STATION), isCurrentlyVisible())),
+                (seeThat("the direct option", the(InboundJourneySummaryPage.ARRIVAL_STATION), isCurrentlyVisible()))
+        );
+    }
 }

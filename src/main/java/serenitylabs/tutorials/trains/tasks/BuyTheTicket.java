@@ -19,7 +19,7 @@ public class BuyTheTicket implements Task {
 
     private final Target summaryPage;
 
-    @Step("{0} tries to buy ticket")
+    @Step("{0} tries to choose #summaryPage")
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
