@@ -54,4 +54,3 @@ Bill books a single ticket from Cardiff Central to York. He clicks on the "1 CHG
 
 ![Search results](src/documentation/images/1change.png)
 
-
