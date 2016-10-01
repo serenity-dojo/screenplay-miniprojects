@@ -7,8 +7,8 @@ import net.serenitybdd.screenplay.targets.Target;
  */
 public class InboundJourneySummaryPage {
 
-    public static final Target DEPARTURE = Target.the("Departure field").locatedBy(".planner-header__origin");
-    public static final Target DESTINATION = Target.the("Destination field").locatedBy(".planner-header__destination");
+    public static final Target EXPECTED_DEPARTURE = Target.the("Departure field").locatedBy(".planner-header__origin");
+    public static final Target EXPECTED_DESTINATION = Target.the("Destination field").locatedBy(".planner-header__destination");
     public static final Target JOURNEY_OPTIONS = Target.the("Number of Journey options").locatedBy(".journey__price");
     public static final Target DURATION = Target.the("Duration of journey").locatedBy(".journey__duration-text");
     public static final Target TICKET_TYPE = Target.the("Type of ticket").locatedBy(".journey__ticket-type-text");
@@ -22,4 +22,5 @@ public class InboundJourneySummaryPage {
     public static final Target ARRIVAL_TIME = Target.the("time of arrival").locatedBy("article:nth-child(2)  .itinerary__arrive .itinerary__time");
     public static final Target DEPARTING_STATION = Target.the("departure station").locatedBy("article:nth-child(2)  .itinerary__depart .itinerary__station");;
     public static final Target ARRIVAL_STATION = Target.the("arrival station").locatedBy("article:nth-child(2)  .itinerary__arrive .itinerary__station");;
+    public static final Target CHANGE_OPTION = Target.the("change option").locatedBy("article:nth-child(2) .journey__changes");
 }

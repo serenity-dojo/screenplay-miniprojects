@@ -14,11 +14,11 @@ import java.util.List;
 public class TheInboundJourneyPage{
 
     public static Question<String> departureHeading() {
-        return actor -> Text.of(InboundJourneySummaryPage.DEPARTURE).viewedBy(actor).asString();
+        return actor -> Text.of(InboundJourneySummaryPage.EXPECTED_DEPARTURE).viewedBy(actor).asString();
     }
 
     public static Question<String> destinationHeading() {
-        return actor -> Text.of(InboundJourneySummaryPage.DESTINATION).viewedBy(actor).asString();
+        return actor -> Text.of(InboundJourneySummaryPage.EXPECTED_DESTINATION).viewedBy(actor).asString();
     }
 
     public static Question<List<String>> numberOfJourneyOptions() {
@@ -39,5 +39,13 @@ public class TheInboundJourneyPage{
 
     public static Question<String> journeyDestination() {
         return actor -> Text.of(InboundJourneySummaryPage.JOURNEY_DESTINATION).viewedBy(actor).asString();
+    }
+
+    public static Question<String> expectedDeparture() {
+        return actor -> Text.of(InboundJourneySummaryPage.DEPARTING_STATION).viewedBy(actor).asString();
+    }
+
+    public static Question<String> expectedArrival() {
+        return actor -> Text.of(InboundJourneySummaryPage.ARRIVAL_STATION).viewedBy(actor).asString();
     }
 }

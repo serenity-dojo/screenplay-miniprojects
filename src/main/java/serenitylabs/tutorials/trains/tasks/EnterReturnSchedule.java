@@ -29,7 +29,7 @@ public class EnterReturnSchedule implements Task {
         this.minute = minute;
     }
 
-    @Step("{0} plans to #departorArrive on #date/#month/#year at #hour:#minute")
+    @Step("{0} plans to #departOrArrive on #date of month at #hour:#minute")
     @Override
     public <T extends Actor> void performAs(T actor) {
 
