@@ -173,11 +173,19 @@ public class WhenPlanningATrip {
 
         then(bill).should(
                 eventually(
-                        seeThat("the departing time in direct option", the(InboundJourneySummaryPage.DEPARTING_TIME), isCurrentlyVisible())
+                        seeThat("the departing time in direct option", the(InboundJourneySummaryPage.DEPARTING_TIME_FOR_CHANGE_LEG_1), isCurrentlyVisible())
                 ),
-                (seeThat("the arrival time in direct option", the(InboundJourneySummaryPage.ARRIVAL_TIME), isCurrentlyVisible())),
-                (seeThat("the departing station in direct option", the(InboundJourneySummaryPage.DEPARTING_STATION), isCurrentlyVisible())),
-                (seeThat("the arrival station in direct option", the(InboundJourneySummaryPage.ARRIVAL_STATION), isCurrentlyVisible())),
+                (seeThat("the arrival time in direct option", the(InboundJourneySummaryPage.ARRIVAL_TIME_FOR_CHANGE_LEG_1), isCurrentlyVisible())),
+                (seeThat("the arrival time in direct option", the(InboundJourneySummaryPage.DEPARTING_TIME_FOR_CHANGE_LEG_2), isCurrentlyVisible())),
+                (seeThat("the arrival time in direct option", the(InboundJourneySummaryPage.ARRIVAL_TIME_FOR_CHANGE_LEG_2), isCurrentlyVisible())),
+
+                (seeThat("the departing station in direct option", the(InboundJourneySummaryPage.DEPARTING_STATION_FOR_CHANGE_LEG_1), isCurrentlyVisible())),
+                (seeThat("the arrival station in direct option", the(InboundJourneySummaryPage.ARRIVAL_STATION_FOR_CHANGE_LEG_1), isCurrentlyVisible())),
+                (seeThat("the departing station in direct option", the(InboundJourneySummaryPage.DEPARTING_STATION_FOR_CHANGE_LEG_2), isCurrentlyVisible())),
+                (seeThat("the arrival station in direct option", the(InboundJourneySummaryPage.ARRIVAL_STATION_FOR_CHANGE_LEG_2), isCurrentlyVisible())),
+
+                (seeThat("the arrival station of leg1", TheInboundJourneyPage.arrivalStationAtLeg1(), equalTo("Gloucester"))),
+                (seeThat("the departure station of leg 2", TheInboundJourneyPage.departureStationAtLeg2(), equalTo("Gloucester"))),
 
                 (seeThat("the departure station", TheInboundJourneyPage.departureHeading(), equalToIgnoringCase("Cardiff Central"))),
                 (seeThat("the arrival station", TheInboundJourneyPage.destinationHeading(), equalToIgnoringCase("York")))

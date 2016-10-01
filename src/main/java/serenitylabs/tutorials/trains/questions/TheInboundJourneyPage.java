@@ -48,4 +48,12 @@ public class TheInboundJourneyPage{
     public static Question<String> expectedArrival() {
         return actor -> Text.of(InboundJourneySummaryPage.ARRIVAL_STATION).viewedBy(actor).asString();
     }
+
+    public static Question<String> arrivalStationAtLeg1() {
+        return actor -> Text.of(InboundJourneySummaryPage.ARRIVAL_STATION_FOR_CHANGE_LEG_1).viewedBy(actor).asString();
+    }
+
+    public static Question<String> departureStationAtLeg2() {
+        return actor -> Text.of(InboundJourneySummaryPage.DEPARTING_STATION_FOR_CHANGE_LEG_2).viewedBy(actor).asString();
+    }
 }
