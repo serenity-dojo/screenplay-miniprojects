@@ -3,6 +3,7 @@ package serenitylabs.tutorials.insurance.car;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
+import net.serenitybdd.screenplay.actions.Click;
 import net.thucydides.core.annotations.Managed;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,12 +11,15 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import serenitylabs.tutorials.insurance.car.domain.Manufacturer;
 import serenitylabs.tutorials.insurance.car.domain.VehicleInformation;
+import serenitylabs.tutorials.insurance.car.page.NewInsurancePage;
 import serenitylabs.tutorials.insurance.car.page.OpenVehicleDetails;
+import serenitylabs.tutorials.insurance.car.questions.TheVehicleSummary;
 import serenitylabs.tutorials.insurance.car.tasks.SelectVehicleDetails;
-import serenitylabs.tutorials.insurance.car.tasks.SupplyRegistrationNumberIfAvailable;
 import serenitylabs.tutorials.insurance.car.tasks.StartANewQuote;
+import serenitylabs.tutorials.insurance.car.tasks.SupplyRegistrationNumberIfAvailable;
 
-import static net.serenitybdd.screenplay.GivenWhenThen.givenThat;
+import static net.serenitybdd.screenplay.GivenWhenThen.*;
+import static org.hamcrest.CoreMatchers.is;
 
 @RunWith(SerenityRunner.class)
 public class WhenComparingACarInsurance {
@@ -45,10 +49,13 @@ public class WhenComparingACarInsurance {
                 andTrim("Auto");
 
 
-        givenThat(john).attemptsTo(SupplyRegistrationNumberIfAvailable.withoutVehicleRegistrationNumber(),
+        givenThat(john).attemptsTo(
+                SupplyRegistrationNumberIfAvailable.withoutVehicleRegistrationNumber(),
                 SelectVehicleDetails.forVehicleHaving(vehicleInformation));
-        timer();
 
+        and(john).attemptsTo(Click.on(NewInsurancePage.VEHICLE_DETAILS_SUBMIT));
+
+        then(john).should(seeThat(TheVehicleSummary.details(),is("1999 AC Ace Auto, 4942CC Petrol, 2DR, Auto")));
     }
 
     private void timer() {

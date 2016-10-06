@@ -17,5 +17,7 @@ public class NewInsurancePage {
     public static final Target SELECT_TRANSMISSION = Target.the("Select Transmission").locatedBy("#transmissions");
     public static final Target SELECT_ENGINE_CAPACITY = Target.the("Select Engine Capacity").locatedBy("#engines");
     public static final Target SELECT_TRIM  = Target.the("Select Engine Capacity").locatedBy("#trims");
+    public static final Target VEHICLE_DETAILS_SUBMIT  = Target.the("Submit Vehicle Details").locatedBy("#this-is-my-vehicle");
+
     ;
 }
