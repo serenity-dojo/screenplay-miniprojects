@@ -37,14 +37,16 @@ public class WhenComparingACarInsurance {
         givenThat(john).attemptsTo(OpenVehicleDetails.defaultPage(),
                 StartANewQuote.forCarInsurance());
 
-        VehicleInformation vehicleInformation = new VehicleInformation();
-        vehicleInformation.withManufacturer(Manufacturer.AC).
-                            andModel("Ace").andRegistrationYear("1999T").
-                            andNumberOfDoorsOrStyle("2DR Cabriolet").
-                            andTransmission("Auto").andEngineCapacity("4942CC");
+        VehicleInformation vehicleInformation = new VehicleInformation().withManufacturer(Manufacturer.AC).
+                andModel("Ace").andRegistrationYear("1999T").
+                andNumberOfDoorsOrStyle("2DR Cabriolet").
+                andTransmission("Auto").
+                andEngineCapacity("4942CC").
+                andTrim("Auto");
+
 
         givenThat(john).attemptsTo(SupplyRegistrationNumberIfAvailable.withoutVehicleRegistrationNumber(),
-                SelectVehicleDetails.forVehicle(vehicleInformation));
+                SelectVehicleDetails.forVehicleHaving(vehicleInformation));
         timer();
 
     }

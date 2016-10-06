@@ -12,6 +12,26 @@ public class VehicleInformation {
     String engineCapacity;
     String trim;
 
+    public String getRegistrationYear() {
+        return registrationYear;
+    }
+
+    public String getNumberOfDoorsOrStyle() {
+        return numberOfDoorsOrStyle;
+    }
+
+    public String getTransmission() {
+        return transmission;
+    }
+
+    public String getEngineCapacity() {
+        return engineCapacity;
+    }
+
+    public String getTrim() {
+        return trim;
+    }
+
     public VehicleInformation(Manufacturer manufacturer) {
         this.manufacturer = manufacturer;
     }
@@ -52,6 +72,15 @@ public class VehicleInformation {
 
     public String getManufacturer() {
         return manufacturer.name();
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public VehicleInformation andTrim(String trim) {
+        this.trim=trim;
+        return this;
     }
 }
 
