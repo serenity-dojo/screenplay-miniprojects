@@ -14,11 +14,11 @@ import java.util.Map;
 /**
  * Created by sapurani on 10/5/2016.
  */
-public class FillVehicleDetails implements Task{
+public class SupplyRegistrationNumberIfAvailable implements Task{
      private final  boolean haveRegistrationNumber;
 
 
-    public FillVehicleDetails(boolean haveRegistrationNumber) {
+    public SupplyRegistrationNumberIfAvailable(boolean haveRegistrationNumber) {
         this.haveRegistrationNumber = haveRegistrationNumber;
     }
 
@@ -32,7 +32,6 @@ public class FillVehicleDetails implements Task{
             actor.attemptsTo(
                     Click.on(resolveRadioType(haveRegistrationNumber))
             );
-        timer();
 
     }
 
@@ -49,7 +48,11 @@ public class FillVehicleDetails implements Task{
 
     }
 
-    public static Performable withoutVehicleRegistrationNumber(boolean haveRegistrationNumber) {
-         return Instrumented.instanceOf(FillVehicleDetails.class).withProperties(haveRegistrationNumber);
+    public static Performable withoutVehicleRegistrationNumber() {
+         return Instrumented.instanceOf(SupplyRegistrationNumberIfAvailable.class).withProperties(false);
+    }
+
+    public static Performable withVehicleRegistrationNumber() {
+        return Instrumented.instanceOf(SupplyRegistrationNumberIfAvailable.class).withProperties(true);
     }
 }

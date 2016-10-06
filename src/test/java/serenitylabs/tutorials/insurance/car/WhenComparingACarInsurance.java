@@ -8,8 +8,11 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
+import serenitylabs.tutorials.insurance.car.domain.Manufacturer;
+import serenitylabs.tutorials.insurance.car.domain.VehicleInformation;
 import serenitylabs.tutorials.insurance.car.page.OpenVehicleDetails;
-import serenitylabs.tutorials.insurance.car.tasks.FillVehicleDetails;
+import serenitylabs.tutorials.insurance.car.tasks.SelectVehicleDetails;
+import serenitylabs.tutorials.insurance.car.tasks.SupplyRegistrationNumberIfAvailable;
 import serenitylabs.tutorials.insurance.car.tasks.StartANewQuote;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.givenThat;
@@ -33,8 +36,25 @@ public class WhenComparingACarInsurance {
     public void john_enters_vehicle_details(){
         givenThat(john).attemptsTo(OpenVehicleDetails.defaultPage(),
                 StartANewQuote.forCarInsurance());
-        givenThat(john).attemptsTo(FillVehicleDetails.withoutVehicleRegistrationNumber(false));
 
+        VehicleInformation vehicleInformation = new VehicleInformation();
+        vehicleInformation.withManufacturer(Manufacturer.AC).
+                            andModel("Ace").andRegistrationYear("1999T").
+                            andNumberOfDoorsOrStyle("2DR Cabriolet").
+                            andTransmission("Auto").andEngineCapacity("4942CC");
+
+        givenThat(john).attemptsTo(SupplyRegistrationNumberIfAvailable.withoutVehicleRegistrationNumber(),
+                SelectVehicleDetails.forVehicle(vehicleInformation));
+        timer();
+
+    }
+
+    private void timer() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 

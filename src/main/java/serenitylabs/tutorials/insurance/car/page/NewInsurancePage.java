@@ -10,4 +10,5 @@ public class NewInsurancePage {
     public static final Target NEW_CAR_INSURANCE =Target.the("Car Insurance icon").located(By.id("lph-cta-car")) ;
     public static final Target NO_VEHICLE_REG_NO = Target.the("No Vehicle Registration").locatedBy("#knows-registration-number-no ~ .Checkbox-label") ;
     public static final Target VEHICLE_REG_NO = Target.the("No Vehicle Registration").locatedBy("#knows-registration-number-yes ~ .Checkbox-label") ;
+    public static final Target SELECT_MANUFACTURER =  Target.the("Select Manufacturer").locatedBy("#manufacturers");
 }
